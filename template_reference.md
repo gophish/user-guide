@@ -12,5 +12,5 @@ The following variables are available in templates and landing pages:
  |{{\.Email}}       | The target's email address                   |
  |{{\.From}}        | The spoofed sender                           |
  |{{\.TrackingURL}} | The URL to the tracking handler              |
- |{{\.Tracker}}     | An alias for `<img src="{{.TrackingUrl}}"/>` |
+ |{{\.Tracker}}     | An alias for `<img src="{{\.TrackingUrl}}"/>` |
  |{{\.URL}}         | The phishing URL                             |
