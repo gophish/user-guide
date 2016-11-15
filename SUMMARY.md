@@ -10,4 +10,5 @@
 * [Templates](documentation/templates.md)
 * [Introducing the Morning Catch Corporation](campaign/introducing_the_morning_catch_corporation.md)
 * [Importing Groups](campaign/importing_groups.md)
+* Creating the Template
 
