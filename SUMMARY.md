@@ -1,5 +1,5 @@
-# Summary
+# Table of Contents
 
 * [Introduction](README.md)
-* [License](license.md)
+* [License](License)
 
