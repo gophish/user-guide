@@ -11,4 +11,5 @@
 * [Introducing the Morning Catch Corporation](campaign/introducing_the_morning_catch_corporation.md)
 * [Importing Groups](campaign/importing_groups.md)
 * [Creating the Template](campaign/creating_the_template.md)
+* Template Reference
 
