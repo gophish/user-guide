@@ -6,5 +6,5 @@
 * [Installation](installation.md)
 * [Getting Started](getting_started.md)
 * [Changing User Settings](documentation/changing_user_settings.md)
-* Groups
+* [Groups](documentation/groups.md)
 
