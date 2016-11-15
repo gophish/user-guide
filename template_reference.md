@@ -1,6 +1,6 @@
 # Template Reference
 
-The following variables are available to be used in templates and landing pages:
+The following variables are available in templates and landing pages:
 
 > Tip: Remember - Templates are *case sensitive*!
 
