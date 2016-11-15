@@ -1,7 +1,7 @@
 
 ![gophish logo](https://raw.github.com/jordan-wright/gophish/master/static/images/gophish_purple.png)
 
-### Welcome to Gophish!
+## Welcome to Gophish!
 
 *Current Version: 0.2*
 
