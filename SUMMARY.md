@@ -13,4 +13,5 @@
 * [Creating the Template](campaign/creating_the_template.md)
 * Template Reference
 * Documentation
+   * Changing User Settings
 
