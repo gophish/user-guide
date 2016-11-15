@@ -2,5 +2,5 @@
 
 * [Introduction](README.md)
 * [License](License)
-* [What is Gophish](what_is_gophish.md)
+* [What is Gophish?](what_is_gophish.md)
 
