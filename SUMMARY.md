@@ -7,6 +7,7 @@
 * [Getting Started](getting_started.md)
 * Documentation
    * [Changing User Settings](documentation/change_user_settings.md)
+   * Changing User Settings
 * [Groups](documentation/groups.md)
 * [Templates](documentation/templates.md)
 * [Introducing the Morning Catch Corporation](campaign/introducing_the_morning_catch_corporation.md)
