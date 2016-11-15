@@ -6,7 +6,7 @@ The following variables are available in templates and landing pages:
 
  |Variable         | Description                                      |
  |-----------------|--------------------------------------------------|
- | {% raw %} {{.FirstName}} {% endraw %    | The target's first name    |
+ | {% raw %} {{.FirstName}} {% endraw %}    | The target's first name    |
  | {% raw %} {{.LastName}} {% endraw %}    | The target's last name     |
  | {% raw %} {{.Position}} {% endraw %}    | The target's position      |
  | {% raw %} {{.Email}} {% endraw %}       | The target's email address |
