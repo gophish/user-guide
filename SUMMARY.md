@@ -3,5 +3,5 @@
 * [Introduction](README.md)
 * [License](license.md)
 * [What is Gophish?](what_is_gophish.md)
-* Installation
+* [Installation](installation.md)
 
