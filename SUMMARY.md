@@ -10,7 +10,7 @@
    * [Groups](documentation/groups.md)
    * [Templates](documentation/templates.md)
 * Building Your First Campaign
-   * Introducing the Morning Catch Corporation
+   * [Introducing the Morning Catch Corporation](campaign/introducing_the_morning_catch_corporation.md)
 * [Introducing the Morning Catch Corporation](campaign/introducing_the_morning_catch_corporation.md)
 * [Importing Groups](campaign/importing_groups.md)
 * [Creating the Template](campaign/creating_the_template.md)
