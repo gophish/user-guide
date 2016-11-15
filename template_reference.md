@@ -6,11 +6,11 @@ The following variables are available in templates and landing pages:
  
  |Variable         | Description                                  |
  |-----------------|----------------------------------------------|
- |{{.FirstName}}   | The target's first name                      |
- |{{.LastName}}    | The target's last name                       |
- |{{.Position}}    | The target's position                        |
- |{{.Email}}       | The target's email address                   |
- |{{.From}}        | The spoofed sender                           |
- |{{.TrackingURL}} | The URL to the tracking handler              |
- |{{.Tracker}}     | An alias for `<img src="{{.TrackingUrl}}"/>` |
- |{{.URL}}         | The phishing URL                             |
+ |{{\.FirstName}}   | The target's first name                      |
+ |{{\.LastName}}    | The target's last name                       |
+ |{{\.Position}}    | The target's position                        |
+ |{{\.Email}}       | The target's email address                   |
+ |{{\.From}}        | The spoofed sender                           |
+ |{{\.TrackingURL}} | The URL to the tracking handler              |
+ |{{\.Tracker}}     | An alias for `<img src="{{.TrackingUrl}}"/>` |
+ |{{\.URL}}         | The phishing URL                             |
