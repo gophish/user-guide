@@ -7,5 +7,5 @@
 * [Getting Started](getting_started.md)
 * [Changing User Settings](documentation/changing_user_settings.md)
 * [Groups](documentation/groups.md)
-* Templates
+* [Templates](documentation/templates.md)
 
