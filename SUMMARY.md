@@ -1,6 +1,7 @@
-# Table of Contents
+# Summary
 
 * [Introduction](README.md)
 * [License](license.md)
 * [What is Gophish?](what_is_gophish.md)
+* Installation
 
