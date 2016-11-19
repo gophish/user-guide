@@ -10,7 +10,7 @@
    * [Groups](documentation/groups.md)
    * [Templates](documentation/templates.md)
    * [Landing Pages](documentation/landing_pages.md)
-   * Sending Profiles
+   * [Sending Profiles](documentation/sending_profiles.md)
    * Campaigns
 * Building Your First Campaign
    * [Introducing the Morning Catch Corporation](campaign/introducing_the_morning_catch_corporation.md)
