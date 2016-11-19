@@ -11,6 +11,7 @@
    * [Templates](documentation/templates.md)
    * Landing Pages
    * Sending Profiles
+   * Campaigns
 * Building Your First Campaign
    * [Introducing the Morning Catch Corporation](campaign/introducing_the_morning_catch_corporation.md)
    * [Importing Groups](campaign/importing_groups.md)
