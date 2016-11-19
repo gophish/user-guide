@@ -60,7 +60,9 @@ Example:
 The format for the `db_path` entry is `username:password@(host:port)/database?charset=utf8&parseTime=True&loc=Local`.
 
 ### Create the Database
-The last step you'll need to do to leverage Mysql is to create the `gophish` database. To do this, log into mysql and run the command `CREATE DATABASE gophish;`.
+The last step you'll need to do to leverage Mysql is to create the `gophish` database. To do this, log into mysql and run the command 
+
+```CREATE DATABASE gophish;```.
 
 After that, you'll be good to go!
 
