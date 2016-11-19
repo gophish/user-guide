@@ -11,7 +11,7 @@ One of the major benefits of having written gophish in the Go programming langua
 To install gophish, simply run `go get github.com/gophish/gophish`. This downloads gophish into your `$GOPATH`.
 Next, navigate to `$GOPATH/src/github.com/gophish/gophish` and run the command `go build`. This builds a gophish binary in the current directory.
 
-## Understanding the config.json
+## Understanding the `config.json`
 There are some settings that are configurable via a file called config.json, located in the gophish root directory. Here are some of the options that you can set to your preferences:
 
 |Key                       | Value (Default) | Description                     |
@@ -41,6 +41,27 @@ This creates two files, gophish.key and gophish.crt. After moving these files in
 	}
 ```
 Now when we launch gophish, you’ll connect to the admin server over HTTPS and accept the self-signed certificate warning.
+
+## Using MySQL
+The default database in Gophish is SQLite. This is perfectly functional, but some environments may benefit from leveraging a more robust database such as MySQL.
+
+Support for Mysql has been added as of 0.3-dev. To setup Gophish for Mysql, a couple extra steps are needed.
+
+### Update `config.json`
+First, change the entries in `config.json` to match your deployment:
+
+Example:
+```
+"db_name" : "mysql",
+"db_path" : "root:@(:3307)/gophish?charset=utf8&parseTime=True&loc=Local",
+```
+
+The format for the `db_path` entry is `username:password@(host:port)/database?charset=utf8&parseTime=True&loc=Local`.
+
+### Create the Database
+The last step you'll need to do to leverage Mysql is to create the `gophish` database. To do this, log into mysql and run the command `CREATE DATABASE gophish;`.
+
+After that, you'll be good to go!
 
 ## Running Gophish
 Now that you have gophish installed, you’re ready to run the software. To launch gophish, simply open a command shell and navigate to the directory the gophish binary is located.
