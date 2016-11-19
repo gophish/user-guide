@@ -22,6 +22,7 @@ There are some settings that are configurable via a file called config.json, loc
 |admin_server.key_path     | example.key     | Path to SSL Private Key         |
 
 ## Creating SSL Certificate and Private Keys
+> Note: As of 0.3-dev, Gophish will by default create a self-signed certificate for the admin panel, so this steps would be optional.
 
 It’s a good idea to have the admin server available over HTTPS. While automatic SSL cert/key generation will be included in a later release, for now let’s take a look at how we can leverage openssl to generate our cert and key for use with gophish (this assumes you already have openssl installed!)
 
