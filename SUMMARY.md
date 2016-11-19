@@ -9,7 +9,7 @@
    * [Changing User Settings](documentation/changing_user_settings.md)
    * [Groups](documentation/groups.md)
    * [Templates](documentation/templates.md)
-   * [Landing Pages](landing_pages.md)
+   * [Landing Pages](documentation/landing_pages.md)
    * Sending Profiles
    * Campaigns
 * Building Your First Campaign
