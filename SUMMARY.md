@@ -18,5 +18,6 @@
    * [Importing Groups](campaign/importing_groups.md)
    * [Creating the Template](campaign/creating_the_template.md)
    * Creating the Landing Page
+   * Launching the Campaign
 * [Template Reference](template_reference.md)
 
