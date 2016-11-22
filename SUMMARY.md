@@ -17,5 +17,6 @@
    * [Creating the Sending Profile](campaign/creating_the_sending_profile.md)
    * [Importing Groups](campaign/importing_groups.md)
    * [Creating the Template](campaign/creating_the_template.md)
+   * Creating the Landing Page
 * [Template Reference](template_reference.md)
 
