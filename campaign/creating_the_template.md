@@ -13,3 +13,19 @@ By clicking the "HTML" tab, we will see the editor we can use to create our HTML
 Since our content is pretty simple, we can just click the "Source" button and be taken to the more visual editor, which will be enough for our purposes:
 
 ![Visual Editor](https://imgur.com/elue6xK.png)
+
+Our template will be simple for the sake of demonstration. I'll start by adding the message:
+
+```
+{{.FirstName}},
+
+The password for {{.Email}} has expired. Please reset your password here.
+
+Thanks,
+Morning Catch IT Team
+```
+
+You'll notice we used the `{{.FirstName}}` and `{{.Email}}` template values. These will populate with the target's first name and email address when the emails are sent. This is Gophish's way to tailor emails to individuals to increase the chance of success.
+
+Speaking of links, now we need to add our phishing link. Highlight over the word "here" and right click, exposing the following menu:
+
