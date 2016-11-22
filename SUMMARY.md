@@ -14,7 +14,7 @@
    * [Campaigns](documentation/campaigns.md)
 * Building Your First Campaign
    * [Introducing the Morning Catch Corporation](campaign/introducing_the_morning_catch_corporation.md)
-   * Creating the Sending Profile
+   * [Creating the Sending Profile](campaign/creating_the_sending_profile.md)
    * [Importing Groups](campaign/importing_groups.md)
    * [Creating the Template](campaign/creating_the_template.md)
 * [Template Reference](template_reference.md)
