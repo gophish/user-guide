@@ -12,7 +12,7 @@
    * [Landing Pages](documentation/landing_pages.md)
    * [Sending Profiles](documentation/sending_profiles.md)
    * [Campaigns](documentation/campaigns.md)
-   * Using the API
+   * [Using the API](documentation/using_the_api.md)
 * Building Your First Campaign
    * [Introducing the Morning Catch Corporation](campaign/introducing_the_morning_catch_corporation.md)
    * [Creating the Sending Profile](campaign/creating_the_sending_profile.md)
