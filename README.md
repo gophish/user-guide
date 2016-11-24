@@ -3,7 +3,7 @@
 
 ## Welcome to Gophish!
 
-*Current Version: 0.2*
+*Current Version: 0.3-dev*
 
 Gophish is a powerful, easy-to-use, open-source phishing toolkit meant to help pentesters and businesses conduct real-world phishing simulations.
 
