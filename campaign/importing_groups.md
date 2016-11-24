@@ -6,7 +6,7 @@ Now that we have our list of users, let’s import them into gophish.
 
 To add a group, navigate to the “Users & Groups” page and click “New Group”:
 
-```screenshot coming soon```
+![New Group Modal](https://i.imgur.com/kBZdT0G.png)
 
 Since we are performing phishing simulation for Morning Catch, we can call our group “Morning Catch Employees”.
 
@@ -36,7 +36,7 @@ Haiti,Moreo,Sales & Marketing,hmoreo@morningcatch.ph,Morning Catch
 
 After uploading this CSV using the “Bulk Import Users” button, we see that our members were added automatically:
 
-```screenshot coming soon!```
+![Importing users](http://imgur.com/58fvRZ3.png)
 
 After clicking “Save changes”, we see a confirmation message that our group was created.
 
