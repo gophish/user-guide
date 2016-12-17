@@ -20,8 +20,9 @@ After Gophish starts up, you can open a browser and navigate to `127.0.0.1:3333`
 
 The default credentials are:
 
-Username: gophish
+Username: admin
 
 Password: gophish
 
 ![Login Screen](https://i.imgur.com/Yw63OGq.png)
+
