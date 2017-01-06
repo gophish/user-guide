@@ -14,15 +14,24 @@ The landing page modal supports the same HTML WYSIWYG editor shown in the Templa
 
 A powerful feature of Gophish is the ability to import a site from a URL. To import a site, click the "Import Site" button.
 
-![](http://imgur.com/uqxm6iB.png)
+![](http://imgur.com/uqxm6iB.png)  
 After entering the URL and clicking "Import", you should see the HTML of the URL populated into the editor.
 
 ## Capturing Credentials
+
 Gophish makes it easy to capture credentials from the landing page. To capture credentials, simply select the checkbox that says "Capture Submitted Data".
 
 > Note: Credentials are stored **in plaintext**. If you don't want to capture passwords, don't select the "Capture Passwords" checkbox. Gophish will still capture other text fields, such as usernames.
 
 ### Redirecting Users
+
 Red team assessments are all about preventing suspicion. To prevent users from becoming suspicious after entering credentials, you may want to redirect them to the original URL.
 
 Gophish makes it easy to redirect users after they submit credentials. To redirect users, enter a URL in the "Redirect To:" text field that appears after the "Capture Submitted Data" checkbox is selected.
+
+## Static Assets
+
+There may be times that you want to store assets such as HTML pages, CSS/JS resources or other static files. To use these in Gophish, just move them under the `static/endpoint` directory. You can then reference them using the URL `http[s]://phishing_server/static/filename`. For more background, see [this issue.](https://github.com/gophish/gophish/issues/220)
+
+
+
