@@ -21,10 +21,17 @@ There are some settings that are configurable via a file called config.json, loc
 | admin\_server.use\_tls | false | Use TLS for admin server? |
 | admin\_server.cert\_path | example.crt | Path to SSL Cert |
 | admin\_server.key\_path | example.key | Path to SSL Private Key |
+| phish\_server.listen\_url | 0.0.0.0:80 | IP/Port of the phishing server - this is where landing pages are hosted. |
+
+### Exposing Gophish to the Internet
+
+By default, the `phish_server.listen_url` is configured to listen on all interfaces. This means that if the host Gophish is running on is exposed to the Internet \(such as running on a VPS\), the phishing server will be exposed to the Internet.
+
+If you also want the admin server to be accessible over the Internet, you will need to change the entry for the `admin_server.listen_url` to `0.0.0.0:3333`.
 
 ## Creating SSL Certificate and Private Keys
 
-> Note: As of 0.3-dev, Gophish will by default create a self-signed certificate for the admin panel, so this steps would be optional.
+> Note: As of 0.3, Gophish will by default create a self-signed certificate for the admin panel, so this steps would be optional.
 
 It’s a good idea to have the admin server available over HTTPS. While automatic SSL cert/key generation will be included in a later release, for now let’s take a look at how we can leverage openssl to generate our cert and key for use with gophish \(this assumes you already have openssl installed!\)
 
