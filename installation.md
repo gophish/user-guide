@@ -97,5 +97,15 @@ gophish@gophish.dev:~/src/github.com/gophish/gophish$ ./gophish
  2016/01/10 23:13:42 gophish.go:51: Phishing server started at http://0.0.0.0:80
 ```
 
+## Running Gophish as a Service
+
+### Linux Distributions
+
+To run Gophish as a service in Linux distributions, you will need to setup a service script. You can refer to [this Github issue](https://github.com/gophish/gophish/issues/586) for an example implementation.
+
+### Windows
+
+To run Gophish as a service in Windows, you can use [nssm](http://nssm.cc/).
+
 
 
