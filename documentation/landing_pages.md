@@ -29,9 +29,9 @@ Red team assessments are all about preventing suspicion. To prevent users from b
 
 Gophish makes it easy to redirect users after they submit credentials. To redirect users, enter a URL in the "Redirect To:" text field that appears after the "Capture Submitted Data" checkbox is selected.
 
+> Note: Make sure to include the full URL \(including the scheme such as http:// or https://\). Otherwise, browsers may interpret the URL as being relative to the Gophish URL.
+
 ## Static Assets
 
 There may be times that you want to store assets such as HTML pages, CSS/JS resources or other static files. To use these in Gophish, just move them under the `static/endpoint` directory. You can then reference them using the URL `http[s]://phishing_server/static/filename`. For more background, see [this issue.](https://github.com/gophish/gophish/issues/220)
-
-
 
