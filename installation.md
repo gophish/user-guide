@@ -70,10 +70,10 @@ Example:
 
 ```
 "db_name" : "mysql",
-"db_path" : "root:@(:3306)/gophish?charset=utf8&parseTime=True&loc=Local",
+"db_path" : "root:@(:3306)/gophish?charset=utf8&parseTime=True&loc=UTC",
 ```
 
-The format for the `db_path` entry is `username:password@(host:port)/database?charset=utf8&parseTime=True&loc=Local`.
+The format for the `db_path` entry is `username:password@(host:port)/database?charset=utf8&parseTime=True&loc=UTC`.
 
 ### Create the Database
 
@@ -106,6 +106,4 @@ To run Gophish as a service in Linux distributions, you will need to setup a ser
 ### Windows
 
 To run Gophish as a service in Windows, you can use [nssm](http://nssm.cc/).
-
-
 
