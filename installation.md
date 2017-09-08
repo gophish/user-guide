@@ -75,6 +75,17 @@ Example:
 
 The format for the `db_path` entry is `username:password@(host:port)/database?charset=utf8&parseTime=True&loc=UTC`.
 
+### Update MySQL Config
+
+Gophish uses a datetime format that is incompatible with MySQL &gt;= 5.7. To fix this, Add the following lines to the bottom of `/etc/mysql/mysql.cnf`:
+
+```
+[mysqld]
+sql_mode=ONLY_FULL_GROUP_BY,STRICT_TRANS_TABLES,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+```
+
+The above settings are the default modes for MySQL, but with NO\_ZERO\_IN\_DATE and NO\_ZERO\_DATE removed.
+
 ### Create the Database
 
 The last step you'll need to do to leverage Mysql is to create the `gophish` database. To do this, log into mysql and run the command
