@@ -4,6 +4,10 @@ Landing pages are the actual HTML pages that are returned to the users when they
 
 Landing pages support templating, capturing credentials, and redirecting users to another website after they submit their credentials.
 
+> Note: Landing pages are stored in the database. Gophish generates a unique ID \(called the `rid` parameter\) for each recipient in a campaign, and uses this ID to dynamically load the correct landing page.
+>
+> To preview what a landing page will look like, you will need to either use the HTML editor seen below, or launch a test campaign. Simply browsing directly to the Gophish listener without specifying an `rid` parameter will display a generic 404 page.
+
 To create a landing page, click on the "Landing Pages" entry in the sidebar and click the "New Page" button.
 
 ![Landing Pages](http://imgur.com/Tg4sDId.png)
