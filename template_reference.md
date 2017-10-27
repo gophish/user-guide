@@ -12,5 +12,5 @@ The following variables are available in templates and landing pages:
  | {% raw %} {{.Email}} {% endraw %}       | The target's email address |
  | {% raw %} {{.From}} {% endraw %}        | The spoofed sender         |
  | {% raw %} {{.TrackingURL}} {% endraw %} | The URL to the tracking handler|
- | {% raw %} {{.Tracker}} {% endraw %}     | An alias for `<img src="{% raw %} {{.TrackingUrl}} {% endraw %}"/>` |
+ | {% raw %} {{.Tracker}} {% endraw %}     | An alias for `<img src="{% raw %} {{.TrackingURL}} {% endraw %}"/>` |
  |{% raw %}{{.URL}} {% endraw%}            | The phishing URL           |
