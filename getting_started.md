@@ -10,13 +10,13 @@ Then, execute the gophish binary. You will see some informational output showing
 gophish@gophish.dev:~/src/github.com/gophish/gophish$ ./gophish
  2016/01/10 23:13:42 worker.go:34: Background Worker Started Successfully - Waiting for Campaigns
  2016/01/10 23:13:42 models.go:64: Database not found... creating db at gophish.db
- 2016/01/10 23:13:42 gophish.go:49: Admin server started at http://127.0.0.1:3333
+ 2016/01/10 23:13:42 gophish.go:49: Admin server started at https://127.0.0.1:3333
  2016/01/10 23:13:42 gophish.go:51: Phishing server started at http://0.0.0.0:80
 ```
 
 ## Logging In
 
-After Gophish starts up, you can open a browser and navigate to `127.0.0.1:3333` to reach the login page.
+After Gophish starts up, you can open a browser and navigate to https://127.0.0.1:3333 to reach the login page.
 
 The default credentials are:
 
