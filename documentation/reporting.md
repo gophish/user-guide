@@ -1,4 +1,4 @@
-# Reporting
+# Generating Reports
 
 Reporting is an important part of any Gophish campaign. To help facilitate generating reports, there are a few options you could consider:
 
