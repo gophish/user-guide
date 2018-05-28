@@ -7,3 +7,4 @@ For this documentation, we will step through the process of setting up users, te
 As a note, this fake company is based on a great VM used specifically for testing phishing frameworks that you can download [here](http://blog.cobaltstrike.com/2014/08/06/introducing-morning-catch-a-phishing-paradise/) if you're interested.
 
 The fake company will consist of 3 users: Richard Bourne, Boyd Jenius, and Haiti Moreo.
+

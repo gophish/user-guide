@@ -37,7 +37,7 @@ It’s a good idea to have the admin server available over HTTPS. While automati
 
 We can start the certificate and key generation process with the following command:
 
-```
+```text
 openssl req -newkey rsa:2048 -nodes -keyout gophish.key -x509 -days 365 -out gophish.crt
 ```
 
@@ -45,7 +45,7 @@ Then, all we have to do is answer the CSR process that asks for details such as 
 
 This creates two files, gophish.key and gophish.crt. After moving these files into the gophish root directory \(in the same folder as config.json\), we can have the following in our config.json file:
 
-```
+```text
     "admin_server" : {
         "listen_url" : "127.0.0.1:3333",
         "use_tls" : true,
@@ -68,7 +68,7 @@ First, change the entries in `config.json` to match your deployment:
 
 Example:
 
-```
+```text
 "db_name" : "mysql",
 "db_path" : "root:@(:3306)/gophish?charset=utf8&parseTime=True&loc=UTC",
 ```
@@ -79,7 +79,7 @@ The format for the `db_path` entry is `username:password@(host:port)/database?ch
 
 Gophish uses a datetime format that is incompatible with MySQL &gt;= 5.7. To fix this, Add the following lines to the bottom of `/etc/mysql/mysql.cnf`:
 
-```
+```text
 [mysqld]
 sql_mode=ONLY_FULL_GROUP_BY,STRICT_TRANS_TABLES,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
 ```
@@ -100,7 +100,7 @@ Now that you have gophish installed, you’re ready to run the software. To laun
 
 Then, execute the gophish binary. You will see some informational output showing both the admin and phishing web servers starting up, as well as the database being created. This output will tell you the port numbers you can use to connect to the web interfaces.
 
-```
+```text
 gophish@gophish.dev:~/src/github.com/gophish/gophish$ ./gophish
  2016/01/10 23:13:42 worker.go:34: Background Worker Started Successfully - Waiting for Campaigns
  2016/01/10 23:13:42 models.go:64: Database not found... creating db at gophish.db

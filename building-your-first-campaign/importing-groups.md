@@ -17,7 +17,7 @@ Now we have to add the members. There are two ways to do this:
 
 To save time \(and typing!\) let’s go with the CSV option.
 
-### Importing from CSV
+## Importing from CSV
 
 The CSV format gophish expects has the following header values:
 
@@ -28,7 +28,7 @@ The CSV format gophish expects has the following header values:
 
 So, the CSV for Morning Catch would look like the following:
 
-```
+```text
 First Name,Last Name,Position,Email
 Richard,Bourne,CEO,rbourne@morningcatch.ph
 Boyd,Jenius,Systems Administrator,bjenius@morningcatch.ph
@@ -42,6 +42,4 @@ After uploading this CSV using the “Bulk Import Users” button, we see that o
 After clicking “Save changes”, we see a confirmation message that our group was created.
 
 > Tip: If you don’t see the group show up right away, refresh the page and it should appear in the table.
-
-
 

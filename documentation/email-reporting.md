@@ -15,7 +15,7 @@ Consider a simple scenario where we send out 100 simulated phishing emails. Let'
 
 Reporting suspicious emails can help prevent the impact of a phishing campaign. It's recommended to build a culture that **rewards the users who report emails**. Even something small like an email to that employee and their manager thanking them for their vigilance can go a long ways. This gives positive feedback that will encourage users to report more emails in the future.
 
-#### Start Small and Simple
+### Start Small and Simple
 
 Right now, we don't have native email clients that can make this a one-click experience for reporting emails. But, this isn't needed to get email reports. Instead, you can start small by creating a security@company.com email address and encouraging users to forward suspicious emails there. It's not perfect, but it's a great start.
 
@@ -23,15 +23,15 @@ In this case, the reporting metrics won't show up in the Gophish dashboard, but 
 
 ## How Reporting Works in Gophish
 
-Every email sent by Gophish contains a link pointing to the [Landing Page](/documentation/landing_pages.md) configured for the campaign. This URL looks like this:
+Every email sent by Gophish contains a link pointing to the [Landing Page](landing-pages.md) configured for the campaign. This URL looks like this:
 
-```
+```text
 http://phish_server/?rid=1234567
 ```
 
 The `rid` parameter specifies which recipient this link was generated for. To report an email sent by Gophish, an HTTP request needs to be made to:
 
-```
+```text
 http://phish_server/report?rid=1234567
 ```
 

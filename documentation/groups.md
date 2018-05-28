@@ -10,7 +10,7 @@ You will see the following dialog appear:
 
 ![New Group Modal](https://i.imgur.com/kBZdT0G.png)
 
-To add a group, you need to specify a *unique* group name, as well as at least one recipient.
+To add a group, you need to specify a _unique_ group name, as well as at least one recipient.
 
 ### Adding Users to the Group
 
@@ -25,11 +25,13 @@ To add users manually, fill in the text boxes for "First Name", "Last Name", "Em
 Adding users manually can be a pain. To fix this, Gophish lets you upload users in bulk from a CSV file.
 
 The CSV format gophish expects has the following header values:
- * First Name
- * Last Name
- * Email
- * Position
+
+* First Name
+* Last Name
+* Email
+* Position
 
 To upload a CSV with user information, click the "Bulk Import Users" button and select the CSV you want to upload. Users are then uploaded and displayed in the dialog.
 
 To save the group, click "Save changes".
+

@@ -1,4 +1,5 @@
 # Sending Profiles
+
 To send emails, Gophish requires you to configure SMTP relay details called "Sending Profiles".
 
 To setup a sending profile, click the "Sending Profiles" navigation entry in the sidebar and click the "New Profile" button.
@@ -16,3 +17,4 @@ To test your SMTP configuration, you can click the "Send Test Email" button:
 ![send test email](http://imgur.com/GjSHL6W.png)
 
 After entering the recipient details and clicking "Send", you should see a message indicating if the email was sent successfully.
+

@@ -8,7 +8,7 @@ We notice that Morning Catch comes with a webmail portal. Let’s craft a simple
 
 We'll use the following subject line:
 
-```
+```text
 Password Reset for {{.Email}}
 ```
 
@@ -24,7 +24,7 @@ Since our content is pretty simple, we can just click the "Source" button and be
 
 Our template will be simple for the sake of demonstration. I'll start by adding the message:
 
-```
+```text
 {{.FirstName}},
 
 The password for {{.Email}} has expired. Please reset your password here.
@@ -38,3 +38,4 @@ Speaking of links, now we need to add our phishing link. Highlight the word "her
 ![Link Menu](http://imgur.com/sWLOxbg.png)
 
 Finally, make sure the "Add Tracking Image" checkbox is checked, and click "Save Template".
+
