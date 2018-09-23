@@ -16,7 +16,7 @@ Next, navigate to `$GOPATH/src/github.com/gophish/gophish` and run the command `
 There are some settings that are configurable via a file called config.json, located in the gophish root directory. Here are some of the options that you can set to your preferences:
 
 | Key | Value \(Default\) | Description |
-| --- | --- | --- |
+| :--- | :--- | :--- |
 | admin\_server.listen\_url | 127.0.0.1:3333 | IP/Port of gophish admin server |
 | admin\_server.use\_tls | false | Use TLS for admin server? |
 | admin\_server.cert\_path | example.crt | Path to SSL Cert |

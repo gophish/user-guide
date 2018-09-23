@@ -5,7 +5,7 @@ The following variables are available in templates and landing pages:
 > Tip: Remember - Templates are _case sensitive_!
 
 | Variable | Description |
-| --- | --- |
+| :--- | :--- |
 | {{.FirstName}} | The target's first name |
 | {{.LastName}} | The target's last name |
 | {{.Position}} | The target's position |
