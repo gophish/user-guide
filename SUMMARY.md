@@ -15,6 +15,7 @@
   * [Using the API](documentation/using-the-api.md)
   * [Generating Reports](documentation/generating-reports.md)
   * [Email Reporting](documentation/email-reporting.md)
+  * [Logging](documentation/logging.md)
 * [Building Your First Campaign](building-your-first-campaign/README.md)
   * [Introducing the Morning Catch Corporation](building-your-first-campaign/introducing-the-morning-catch-corporation.md)
   * [Creating the Sending Profile](building-your-first-campaign/creating-the-sending-profile.md)
