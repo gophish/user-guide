@@ -6,6 +6,7 @@ The following variables are available in templates and landing pages:
 
 | Variable | Description |
 | :--- | :--- |
+| {{.RId}} | The target's unique ID |
 | {{.FirstName}} | The target's first name |
 | {{.LastName}} | The target's last name |
 | {{.Position}} | The target's position |
@@ -14,4 +15,5 @@ The following variables are available in templates and landing pages:
 | {{.TrackingURL}} | The URL to the tracking handler |
 | {{.Tracker}} | An alias for `<img src="{{.TrackingURL}}"/>` |
 | {{.URL}} | The phishing URL |
+| {{.BaseURL}} | The base URL with the path and `rid` parameter stripped. Useful for making links to static files. |
 
