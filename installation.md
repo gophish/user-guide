@@ -90,7 +90,7 @@ The above settings are the default modes for MySQL, but with NO\_ZERO\_IN\_DATE 
 
 The last step you'll need to do to leverage Mysql is to create the `gophish` database. To do this, log into mysql and run the command
 
-`CREATE DATABASE gophish;`.
+`CREATE DATABASE gophish CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;`.
 
 After that, you'll be good to go!
 
