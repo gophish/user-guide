@@ -71,3 +71,11 @@ To view the timeline for each recipient, expand the row with the recipient's nam
 
 ![](../.gitbook/assets/screen-shot-2018-10-08-at-11.17.40-pm.png)
 
+The results pane shows what a campaign recipient did, such as opening the email, clicking the link, or attempting to submit data from the landing page.
+
+Gophish also records information about the device that clicked the link or submitted data. This data is parsed from the browser's user-agent string. The operating system and browser version is displayed below the event details.
+
+#### Viewing Captured Credentials
+
+If you selected the "Capture Credentials" option when building a landing page, Gophish displays the credentials in the results pane. To view them, click the "View Details" dropdown which renders the captured credentials in a table.
+
