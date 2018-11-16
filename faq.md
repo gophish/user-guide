@@ -1,5 +1,23 @@
 # FAQ
 
+## Unable to Reach Admin Dashboard
+
+Let's say you've just loaded up Gophish, are trying to reach the admin dashboard, and encounter this error in your logs:
+
+```text
+2018/11/15 21:42:22 http: TLS handshake error from 127.0.0.1:51419: tls: first record does not look like a TLS handshake
+```
+
+This means that you browsed to `http://admin_server` instead of `https://admin_server` \(note the use of HTTPS\).
+
+## How to Bypass Spam Filters
+
+There is no fool proof way to bypass spam filters - **this is a good thing!**
+
+Something that might help increase deliverability is to set up your email infrastructure correctly to support modern email authentication protocols like SPF, DKIM, and DMARC. You can find more information about this [here](https://www.trustedsec.com/2018/03/take-employees-phishing/).
+
+However, for tests that aim to measure how users respond to phishing simulations, it's recommend to temporarily whitelist the IP address of the server running Gophish.
+
 ## Events Aren't Showing Up on the Dashboard
 
 If you are seeing emails being sent successfully, but aren't seeing events show up on the dashboard, it likely means there is a configuration error somewhere. You can follow these tips to help track it down.
