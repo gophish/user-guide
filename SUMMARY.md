@@ -25,4 +25,5 @@
   * [Launching the Campaign](building-your-first-campaign/launching-the-campaign.md)
 * [Template Reference](template-reference.md)
 * [Additional References](additional-references.md)
+* [FAQ](faq.md)
 
