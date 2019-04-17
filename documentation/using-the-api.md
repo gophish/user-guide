@@ -2,7 +2,7 @@
 
 Gophish was designed to be API-first. This means that the UI is just a wrapper around a powerful JSON RESTful API.
 
-You can find our API documentation [here.](https://getgophish.com/documentation/api/)
+You can find our API documentation [here.](https://docs.getgophish.com/api-documentation/)
 
 ## Python API Client
 
