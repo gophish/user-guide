@@ -5,7 +5,7 @@
 \*\*\*\*[**Simulated Phishing Educational Guide**](http://tinyurl.com/PhishCampaign)  
 ****Author: [LarryGrim](https://github.com/LarryGrim)
 
-\*\*\*\*[**Practical Phishing with Gophish**](https://medium.com/@chrismerkel/conducting-usb-drop-tests-with-gophish-44cc7e1a88b9)  
+\*\*\*\*[**Practical Phishing with Gophish**](https://medium.com/airwalk/practical-phishing-with-gophish-7dd384ad1840)  
 Author: [Jim Lamb](https://twitter.com/ovineOppressor)
 
 \*\*\*\*[**Conducting USB Drop Tests With GoPhish**](https://medium.com/@chrismerkel/conducting-usb-drop-tests-with-gophish-44cc7e1a88b9)  
