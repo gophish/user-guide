@@ -15,9 +15,13 @@ Author: [Chris Merkel](https://twitter.com/chrismerkel)
 
 \*\*\*\*[**GoReport**](https://github.com/chrismaddalena/GoReport)  
 ****Author: [Chris Maddalena](https://twitter.com/cmaddalena)  
-_A Python script to collect campaign data from GoPhish and generate a report_
+_A Python script to collect campaign data from Gophish and generate a report_
 
 \*\*\*\*[**Phishbuckets**](https://github.com/CommArc/phishbuckets)  
 ****Author: [snori74](https://github.com/snori74)  
-_Command-line scripts to manage phishing campaigns with API calls to a 'gophish' server_
+_Command-line scripts to manage phishing campaigns with API calls to a Gophish server_
+
+\*\*\*\*[**Lure**](https://github.com/highmeh/lure)  
+****Author: [Jayme \(highmeh\)](https://twitter.com/highmeh)  
+_Lure assists in phishing target collection by pulling and parsing email addresses for a target organization. The results are normalized into a format recognized by Gophish, and then uploaded to the server._
 
