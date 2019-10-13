@@ -15,7 +15,7 @@ gophish@gophish.dev:~/src/github.com/gophish/gophish$ ./gophish
 ```
 
 {% hint style="info" %}
-If your phishing server is set to run on TCP port 80, then you may need to use `sudo` to run Gophish so that it can bind to the privileged port.
+If your phishing server is set to run on TCP port 80, then you may need to run Gophish as an administrator so that it can bind to the privileged port.
 {% endhint %}
 
 ## Logging In
