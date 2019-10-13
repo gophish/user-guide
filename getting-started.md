@@ -14,6 +14,10 @@ gophish@gophish.dev:~/src/github.com/gophish/gophish$ ./gophish
  2016/01/10 23:13:42 gophish.go:51: Phishing server started at http://0.0.0.0:80
 ```
 
+{% hint style="info" %}
+If your phishing server is set to run on TCP port 80, then you may need to use `sudo` to run Gophish so that it can bind to the privileged port.
+{% endhint %}
+
 ## Logging In
 
 After Gophish starts up, you can open a browser and navigate to [https://127.0.0.1:3333](https://127.0.0.1:3333) to reach the login page.
