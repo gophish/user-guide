@@ -5,7 +5,7 @@ Gophish - Open-Source Phishing Framework
 
 The MIT License (MIT)
 
-Copyright (c) 2013 - 2016 Jordan Wright
+Copyright (c) 2013 - 2020 Jordan Wright
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software ("Gophish Community Edition") and associated documentation files (the "Software"), to deal
