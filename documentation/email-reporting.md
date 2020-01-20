@@ -1,8 +1,8 @@
 # Email Reporting
 
-As of v0.6.0, Gophish supports the ability for users to report the simulated phishing emails they receive. This is to encourage users to report suspicious to their administrators, potentially catching malicious emails earlier.
+Gophish supports the ability for users to report the simulated phishing emails they receive. This is to encourage users to report suspicious to their administrators, potentially catching malicious emails earlier.
 
-Right now, we only support this reporting feature on the **server side** of things. We don't yet have actual email extensions and add ons that can be used to facilitate this reporting. If you're interested in writing one, this page explains how the reporting mechanism works.
+Right now, we only support this reporting feature on the **server side** of things. While we don't yet have actual email extensions and add ons that can be used to facilitate this reporting, as of v0.9.0 we do support email reporting via IMAP.
 
 ## The Importance of Email Reporting
 
@@ -15,11 +15,25 @@ Consider a simple scenario where we send out 100 simulated phishing emails. Let'
 
 Reporting suspicious emails can help prevent the impact of a phishing campaign. It's recommended to build a culture that **rewards the users who report emails**. Even something small like an email to that employee and their manager thanking them for their vigilance can go a long ways. This gives positive feedback that will encourage users to report more emails in the future.
 
-### Start Small and Simple
+## Reporting via IMAP
 
-Right now, we don't have native email clients that can make this a one-click experience for reporting emails. But, this isn't needed to get email reports. Instead, you can start small by creating a security@company.com email address and encouraging users to forward suspicious emails there. It's not perfect, but it's a great start.
+A common \(and good!\) practice for organizations is to create an email address such as security@example.com and encourage employees to forward any suspicious emails. This is a great way to work towards building a collaborative relationship between the employee and security team.
 
-In this case, the reporting metrics won't show up in the Gophish dashboard, but you can always add these to your reports manually later.
+As of v0.9.0, Gophish has the ability to check a configured mailbox via IMAP for campaign emails that have been reported. Once a campaign email is found, that result is updated to show that the user reported the email.
+
+Each Gophish user has the ability to configure their own IMAP settings. These settings are found under "Account Settings &gt; Reporting Settings".
+
+![IMAP Configuration Settings](../.gitbook/assets/screen-shot-2020-01-20-at-11.15.48-am.png)
+
+The most common settings you'll need are the IMAP hostname, port, username, and password. It's commonly the case that you'll want to enable TLS but this is something you should confirm with your email provider.
+
+### Advanced Settings
+
+There is also a number of Advanced Settings that allow you to configure which folder campaign emails will be listed in or how often Gophish should poll for new results. Additionally, you can restrict it to only consider emails that have been reported from an address with your organizations domain name. Finally, Gophish can optionally delete campaign emails after they have been reported.
+
+![Advanced IMAP Settings](../.gitbook/assets/screen-shot-2020-01-20-at-11.19.46-am.png)
+
+After IMAP settings have been configured, you can either save them or use the "Test Settings" button to confirm that Gophish can establish an IMAP connection.
 
 ## How Reporting Works in Gophish
 
