@@ -18,7 +18,7 @@ A powerful feature of Gophish is the HTML editor. To switch between the HTML sou
 
 This is helpful to ensure that the email received by the user is pixel-perfect.
 
-### Importing a Site
+### Importing an Email
 
 Gophish supports the ability to import an email from the raw content. To do this, click the "Import Email" button and paste in the original email content. This content is usually found through the "View Original" feature of many mail clients:
 
