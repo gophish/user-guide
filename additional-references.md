@@ -25,3 +25,7 @@ _Command-line scripts to manage phishing campaigns with API calls to a Gophish s
 ****Author: [Jayme \(highmeh\)](https://twitter.com/highmeh)  
 _Lure assists in phishing target collection by pulling and parsing email addresses for a target organization. The results are normalized into a format recognized by Gophish, and then uploaded to the server._
 
+\*\*\*\*[**GoLDAP**](https://github.com/md-howsa/GoLDAP)  
+****Author: Mohammed AlHowsa  
+_A Python script that imports users from active directory to Gophish._
+
