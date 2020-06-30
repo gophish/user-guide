@@ -110,10 +110,14 @@ Then, execute the gophish binary. You will see some informational output showing
 
 ```text
 gophish@gophish.dev:~/src/github.com/gophish/gophish$ ./gophish
- 2016/01/10 23:13:42 worker.go:34: Background Worker Started Successfully - Waiting for Campaigns
- 2016/01/10 23:13:42 models.go:64: Database not found... creating db at gophish.db
- 2016/01/10 23:13:42 gophish.go:49: Admin server started at http://127.0.0.1:3333
- 2016/01/10 23:13:42 gophish.go:51: Phishing server started at http://0.0.0.0:80
+ time="2020-06-30T08:04:33-05:00" level=warning msg="No contact address has been configured."
+ time="2020-06-30T08:04:33-05:00" level=warning msg="Please consider adding a contact_address entry in your config.json"
+ time="2020-06-30T08:04:33-05:00" level=info msg="Please login with the username admin and the password 1178f855283d03d3"
+ time="2020-06-30T08:04:33-05:00" level=info msg="Starting phishing server at http://0.0.0.0:80"
+ time="2020-06-30T08:04:33-05:00" level=info msg="Starting IMAP monitor manager"
+ time="2020-06-30T08:04:33-05:00" level=info msg="Starting admin server at https://127.0.0.1:3333"
+ time="2020-06-30T08:04:33-05:00" level=info msg="Background Worker Started Successfully - Waiting for Campaigns"
+ time="2020-06-30T08:04:33-05:00" level=info msg="Starting new IMAP monitor for user admin"
 ```
 
 ## Running Gophish as a Service
