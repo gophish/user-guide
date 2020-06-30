@@ -6,7 +6,7 @@
 * [Installation](installation.md)
 * [Getting Started](getting-started.md)
 * [Documentation](documentation/README.md)
-  * [Changing User Settings](documentation/changing-user-settings.md)
+  * [Changing Account Settings](documentation/changing-user-settings.md)
   * [Groups](documentation/groups.md)
   * [Templates](documentation/templates.md)
   * [Landing Pages](documentation/landing-pages.md)
