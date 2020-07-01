@@ -69,5 +69,5 @@ In this example, the `foo` field is data that was submitted to the landing page.
 
 ### Example Server
 
-For an example on how to receive, validate, and parse webhook messages from Gophish, we've open-sourced an [example server](https://github.com/gophish/webhook) you can find on GitHub. However, since we follow the same common signing pattern used by other webhook providers, most libraries should work with Gophish as well.
+For an example on how to receive, validate, and parse webhook messages from Gophish, we've open-sourced an [example server](https://github.com/gophish/webhook) you can find [on GitHub](https://github.com/gophish/webhook). However, since we follow the same common signing pattern used by other webhook providers, most libraries should work with Gophish as well.
 

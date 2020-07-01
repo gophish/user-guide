@@ -16,6 +16,7 @@
   * [Generating Reports](documentation/generating-reports.md)
   * [Email Reporting](documentation/email-reporting.md)
   * [Webhooks](documentation/webhooks.md)
+  * [User Management](documentation/user-management.md)
   * [Logging](documentation/logging.md)
 * [Building Your First Campaign](building-your-first-campaign/README.md)
   * [Introducing the Morning Catch Corporation](building-your-first-campaign/introducing-the-morning-catch-corporation.md)
