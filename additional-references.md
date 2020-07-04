@@ -29,3 +29,7 @@ _Lure assists in phishing target collection by pulling and parsing email address
 ****Author: Mohammed AlHowsa  
 _A Python script that imports users from active directory to Gophish._
 
+\*\*\*\*[**Phish Paste**](https://github.com/glennzw/phishPaste)  
+****Author: [Glenn Wilkinson](https://twitter.com/glennzw)  
+_Phish Paste is a tiny utility to copy templates, pages, and sending profiles between different Gophish user accounts._
+
