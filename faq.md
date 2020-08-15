@@ -50,3 +50,29 @@ To test this, you can manually browse to the URL you're expecting to use in your
 
 Once manually browsing to your URL works, you can try to send a test email to yourself when building a campaign. If it works, you should see your landing page being returned. This means that the URL will likely work when used in a campaign, assuming it is reachable by all recipients.
 
+## Submitted Form Data Isn't Being Captured
+
+To capture data submitted through a landing page, you need to create an HTML `<form>` element on your landing page that has a few specific properties:
+
+Here is a minimal example `<form>` element which captures data:
+
+```markup
+<form action="" method="POST">
+    <input name="username" type="text" placeholder="username" />
+    <input name="password" type="password" placeholder="password" />
+    <input type="submit" value="Submit" />
+</form>
+```
+
+There are a few things to note about this form:
+
+* The action is `""` so that form submissions are directed to your phishing page and, therefore, to your Gophish server
+* The form submission method is `POST` 
+* Each input which you expect to see in Gophish has a `name` attribute
+
+Each of these should be checked when troubleshooting HTML forms that don't appear to be sending data correctly.
+
+If you still aren't seeing your form submitted correctly, you may need to review and remove any Javascript on the page interfering with the form submission.
+
+Finally, ensure that when saving the landing page that you have both the "Capture Submitted Data" and "Capture Passwords" \(if appropriate\) options checked. Otherwise, Gophish will remove the `name` attributes from your inputs so they aren't submitted with the form.
+
