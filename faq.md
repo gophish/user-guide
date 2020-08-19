@@ -14,7 +14,7 @@ This means that you browsed to `http://admin_server` instead of `https://admin_s
 
 There is no fool proof way to bypass spam filters - **this is a good thing!**
 
-Something that might help increase deliverability is to set up your email infrastructure correctly to support modern email authentication protocols like SPF, DKIM, and DMARC. You can find more information about this [here](https://www.trustedsec.com/2018/03/take-employees-phishing/).
+Something that might help increase deliverability is to set up your email infrastructure correctly to support modern email authentication protocols like SPF, DKIM, and DMARC. You can find more information about this [here](https://www.trustedsec.com/blog/take-employees-phishing/).
 
 However, for tests that aim to measure how users respond to phishing simulations, it's recommend to temporarily whitelist the IP address of the server running Gophish.
 
