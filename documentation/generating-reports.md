@@ -20,5 +20,5 @@ Gophish has an incredible community that has built tools around the API to help 
 
 If you are wanting to make custom reports, perhaps for one or more campaigns, we strongly suggest you consider leveraging the extensive [Gophish API](https://docs.getgophish.com/api-documentation/).
 
-We have a [Python API client](https://github.com/gophish/api-client-python) that can help facilitate getting the data you need from the API. You can find the documentation for the Python API client [here](https://gophish.gitbooks.io/python-api-client/content/).
+We have a [Python API client](https://github.com/gophish/api-client-python) that can help facilitate getting the data you need from the API. You can find the documentation for the Python API client [here](https://docs.getgophish.com/python-api-client/).
 
