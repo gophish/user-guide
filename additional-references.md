@@ -33,3 +33,6 @@ _A Python script that imports users from active directory to Gophish._
 ****Author: [Glenn Wilkinson](https://twitter.com/glennzw)  
 _Phish Paste is a tiny utility to copy templates, pages, and sending profiles between different Gophish user accounts._
 
+\*\*\*\*[**Kyouar**](https://github.com/glennzw/Kyouar)  
+****Author: [Glenn Wilkinson](https://twitter.com/glennzw)  
+_Kyouar (pronounced 'QR') is a tiny endpoint to create a QR code from a supplied URL. This can be used to embed QR codes inside campaign emails or landing pages._
