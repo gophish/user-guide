@@ -9,6 +9,7 @@
   * [Changing Account Settings](documentation/changing-user-settings.md)
   * [Groups](documentation/groups.md)
   * [Templates](documentation/templates.md)
+  * [Attachment Tracking](documentation/attachments.md)
   * [Landing Pages](documentation/landing-pages.md)
   * [Sending Profiles](documentation/sending-profiles.md)
   * [Campaigns](documentation/campaigns.md)
