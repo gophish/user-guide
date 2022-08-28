@@ -24,3 +24,5 @@ Gophish supports the ability to import an email from the raw content. To do this
 
 ![Import Email](https://imgur.com/QAZCrHu.png)
 
+Make sure you copy both the emails headers and the email content.
+
