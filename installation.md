@@ -21,6 +21,7 @@ There are some settings that are configurable via a file called config.json, loc
 | admin\_server.use\_tls | false | Use TLS for admin server? |
 | admin\_server.cert\_path | example.crt | Path to SSL Cert |
 | admin\_server.key\_path | example.key | Path to SSL Private Key |
+| admin\_server.trusted_origins | [] | Comma separated list of trusted origins |
 | phish\_server.listen\_url | 0.0.0.0:80 | IP/Port of the phishing server - this is where landing pages are hosted. |
 
 {% hint style="warning" %}
@@ -32,6 +33,8 @@ There are some settings that are configurable via a file called config.json, loc
 By default, the `phish_server.listen_url` is configured to listen on all interfaces. This means that if the host Gophish is running on is exposed to the Internet \(such as running on a VPS\), the phishing server will be exposed to the Internet.
 
 If you also want the admin server to be accessible over the Internet, you will need to change the entry for the `admin_server.listen_url` to `0.0.0.0:3333`.
+
+The `phish_server.trusted_origins` option allows you to add addresses that you expect incoming connections to come from. This is helpful in cases where TLS termination is handled by a load balancer upstream, rather than the application itself.
 
 {% hint style="warning" %}
 **Be careful**: Exposing the admin server to the Internet should only be used if needed. Before exposing the admin server to the Internet, it's **highly recommended** to change the default password.
