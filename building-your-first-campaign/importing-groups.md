@@ -29,10 +29,10 @@ The CSV format gophish expects has the following header values:
 So, the CSV for Morning Catch would look like the following:
 
 ```text
-First Name,Last Name,Position,Email
-Richard,Bourne,CEO,rbourne@morningcatch.ph
-Boyd,Jenius,Systems Administrator,bjenius@morningcatch.ph
-Haiti,Moreo,Sales & Marketing,hmoreo@morningcatch.ph
+First Name,Last Name,Email,Position
+Richard,Bourne,rbourne@morningcatch.ph,CEO
+Boyd,Jenius,bjenius@morningcatch.ph,Systems Administrator
+Haiti,Moreo,hmoreo@morningcatch.ph,Sales & Marketing
 ```
 
 After uploading this CSV using the “Bulk Import Users” button, we see that our members were added automatically:
