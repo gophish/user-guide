@@ -17,6 +17,7 @@ Author: [Chris Merkel](https://twitter.com/chrismerkel)
 \*\*\*\*[**How we brought security awareness through the company with automation of open source tools**](https://medium.com/daniel-wellington-tech-stories/how-we-brought-security-awareness-through-the-company-with-automation-of-open-source-tools-and-a-b8dcf0234c69)  
 ****Author: [Daniel Wellington Technologies](https://github.com/dwtechnologies)
 
+[**Gophish: Phishing Framework for Simulation and Red Team**](https://en.hackita.it/articoli/gophish/)
 
 
 ## Tools
